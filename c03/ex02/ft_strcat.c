@@ -6,7 +6,7 @@
 /*   By: gbarbosa < gbarbosa@student.42.rio>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 03:48:22 by gbarbosa          #+#    #+#             */
-/*   Updated: 2024/06/26 06:03:48 by gbarbosa         ###   ########.fr       */
+/*   Updated: 2024/06/27 13:52:46 by gbarbosa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,21 @@
 
 char	*ft_strcat(char *dest, char *src)
 {
-	int	i; //variavel
-	int	c; //variavel
+	int	i;
+	int	c;
 
-	i = 0; //inicializa para percorrer
-	c= 0; //inicializa para percorrer
-	while (dest[c] != '\0') //percorrer até encontrar o final da string
+	i = 0;
+	c = 0;
+	while (dest[c] != '\0')
 		c++;
-	while (src[i] !='\0') //percorrer até encontrar o final da string
+	while (src[i] != '\0')
 	{
-		dest[c] = src[i]; //copia cada caracter de src para dest
+		dest[c] = src[i];
 		i++;
 		c++;
 	}
-	dest[c] = '\0'; //adiciona o final da string
-	return (dest); //retorna o ponteiro para dest com os caracter de src
+	dest[c] = '\0';
+	return (dest);
 }
 
 /*int	main()

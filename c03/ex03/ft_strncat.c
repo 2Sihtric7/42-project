@@ -6,11 +6,11 @@
 /*   By: gbarbosa <gbarbosa@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 06:19:34 by gbarbosa          #+#    #+#             */
-/*   Updated: 2024/06/26 06:31:49 by gbarbosa         ###   ########.fr       */
+/*   Updated: 2024/06/27 13:50:55 by gbarbosa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
@@ -31,10 +31,10 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 
-int	main()
+/*int	main()
 {
 	int	dest[] = "galinn";
 	int	src[] = "galinn";
 
 	printf("%s ", ft_strncat(dest, src, 4));
-}
+}*/
