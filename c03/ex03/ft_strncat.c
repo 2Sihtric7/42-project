@@ -6,7 +6,7 @@
 /*   By: gbarbosa <gbarbosa@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 06:19:34 by gbarbosa          #+#    #+#             */
-/*   Updated: 2024/06/27 13:50:55 by gbarbosa         ###   ########.fr       */
+/*   Updated: 2024/06/27 13:57:13 by gbarbosa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int	i;
+	unsigned int	i;
 	int	c;
 
 	i = 0;
