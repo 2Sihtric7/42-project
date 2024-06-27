@@ -6,7 +6,7 @@
 /*   By: gbarbosa <gbarbosa@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 06:19:34 by gbarbosa          #+#    #+#             */
-/*   Updated: 2024/06/27 13:57:13 by gbarbosa         ###   ########.fr       */
+/*   Updated: 2024/06/27 14:32:44 by gbarbosa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 /*int	main()
 {
-	int	dest[] = "galinn";
-	int	src[] = "galinn";
+	char	dest[] = "galinn";
+	char	src[] = "gostoso";
 
-	printf("%s ", ft_strncat(dest, src, 4));
+	printf("%s ", ft_strncat(dest, src, 5));
 }*/
